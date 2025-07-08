@@ -30,7 +30,7 @@ import {
 
 // Your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyB5ZaJIE691ZamDX7I8_ymqgIH-cp54Ccw",
+  apiKey: "",
   authDomain: "music-d9a84.firebaseapp.com",
   projectId: "music-d9a84",
   storageBucket: "music-d9a84.firebasestorage.app",
