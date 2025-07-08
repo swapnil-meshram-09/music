@@ -1,0 +1,267 @@
+.main {
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.side-bar {
+    margin: 0%;
+    background-color: #000000;
+    height: 100vh;
+    width: 10vw;
+    position: fixed;
+    z-index: 9;
+}
+
+.logo {
+    padding: 15px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 6vh;
+}
+
+.menu {
+    margin: 21px;
+    height: 65vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu h1 {
+    margin: 25px;   
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.policy {
+    margin: 14px;
+    height: 18vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+
+.policy span {
+    margin: 5px;   
+    margin-left: 33px;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.nav-bar {
+    background-color: #000000;
+    margin-left: 152px;
+    position: fixed;
+    height: 13vh;
+    width: 150vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: fixed;
+    z-index: 9;
+}
+
+.nav-bar h1 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav-bar button {
+    color: #000000;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: #ffffff;
+
+}
+
+.container {
+    background-color: #000000;
+    margin-left: 153px;
+    height: 210vh;
+    width: 90.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position:relative;
+    z-index: 1;
+}
+
+.container .list {
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 20%;
+}
+
+.container .list .playlist {
+  background-color: rgb(0, 0, 0);
+}
+
+.container .list .playlist h1{
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.container .list .song-list {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 75px;
+    padding: 20px 20px;
+}
+
+.container .list .song-list .indiviual {
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px 7px;
+}
+
+
+.container .list .song-list .indiviual img {
+    margin-top: 20px;
+    height: 25vh;
+    border-radius: 20px;    
+}
+
+.container .list .song-list .indiviual h4 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .list .song-list .indiviual p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .list .song-list .indiviual .play {
+  position: relative;
+}
+
+.container .list .song-list .indiviual .play button {
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  padding: 5px 15px;
+  background-color: #1db954;
+  border-radius: 50px;
+  opacity: 0;
+  transition: all ease 0.4s;
+  border: none;
+}
+
+.container .list .song-list .indiviual:hover .play button {
+  opacity: 1;
+  border-radius: 190px;
+  border: none;
+  transform: translateY(-25px);
+}
+
+.container .list .song-list .indiviual .play  img {
+  height: 25px;
+  width: 25px;
+  padding: 10px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+.bottom-player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background: #181818;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bottom-player .left {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-player .left img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.bottom-player .info h4,
+.bottom-player .info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.bottom-player .center span {
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.bottom-player .right {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-player .right input[type="range"] {
+  margin: 0 10px;
+}
+
+.bottom-player .close {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+
+
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: linear-gradient(
+    145deg,
+    #ffe2e2,
+    #fff1cc,
+    #d4f8e8,
+    #e0f0ff,
+    #ecd9ff
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 5s ease infinite;
+  text-align: center;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+/* 🔁 Keyframes for Smooth Gradient Transition */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.login-container h2 {
+  margin-bottom: 2rem;
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container input {
+  width: 90%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.login-container .submit {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4285F4;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-container .submit:hover {
+  background-color: #3367D6;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem 0;
+  color: #000000;
+  font-size: 20px;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.separator::before {
+  margin-right: 0.75em;
+}
+
+.separator::after {
+  margin-left: 0.75em;
+}
+
+.login-container h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.button-div {
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.google-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  padding: 10;
+  margin-bottom: 8%;
+}
+
+.google-btn:hover {
+  box-shadow: 0 0 10px rgb(120, 120, 120);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.login-container > p > .login-sign-up {
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0;
+}
